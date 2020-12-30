@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dnsmadeeasy-dynamic-dns": "./dns.js"
+    "namecheap-dynamic-dns": "./dns.js"
   },
   "author": {
     "name": "Milad Kawas Cale",
