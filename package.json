@@ -1,0 +1,48 @@
+{
+  "name": "namecheap-dynamic-dns",
+  "version": "1.0.0",
+  "description": "This is an implementation of Namecheap Dynamic DNS in Node.js.",
+  "main": "dns.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dnsmadeeasy-dynamic-dns": "./dns.js"
+  },
+  "author": {
+    "name": "Milad Kawas Cale",
+    "email": "miladkaleh@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Milad Kawas Cale",
+      "email": "miladkaleh@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/MiladK/namecheap-dynamic-dns.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/MiladK/namecheap-dynamic-dns/-/issues"
+  },
+  "keywords": [
+    "Namecheap",
+    "DNS",
+    "Dynamic"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "homepage": "https://gitlab.com/MiladK/namecheap-dynamic-dns",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
