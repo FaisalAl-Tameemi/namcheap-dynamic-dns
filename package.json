@@ -1,6 +1,6 @@
 {
   "name": "namecheap-dynamic-dns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is an implementation of Namecheap Dynamic DNS in Node.js.",
   "main": "dns.js",
   "scripts": {
