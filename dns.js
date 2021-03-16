@@ -42,6 +42,8 @@ const update = () => {
     .then(returnResponse)
 }
 
-update()
-  .then(console.log)
-  .catch(handleError)
+setInterval(() => {
+  update()
+    .then(console.log)
+    .catch(handleError)
+}, 3600000)
